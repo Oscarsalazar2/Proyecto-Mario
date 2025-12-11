@@ -139,7 +139,7 @@ function renderPanel() {
   }
 }
 
-// --- Clima (Open-Meteo) Matamoros ---
+// Clima (Open-Meteo) Matamoros
 async function fetchWeather(lat = 25.869, lon = -97.504) {
   const url =
     `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m,relative_humidity_2m,precipitation,cloud_cover,wind_speed_10m&current=temperature_2m,relative_humidity_2m,apparent_temperature,wind_speed_10m,is_day&daily=sunrise,sunset,uv_index_max,precipitation_sum&timezone=America%2FMatamoros`;
@@ -317,7 +317,7 @@ function renderSensors(panel) {
   }));
 }
 
-// -------- Reportes --------
+//Reportes
 function renderReports(panel) {
   panel = panel || document.getElementById('panel');
   const wrap = document.createElement('div');

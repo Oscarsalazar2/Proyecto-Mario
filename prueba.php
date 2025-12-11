@@ -1,7 +1,7 @@
 <?php
 require 'config.php';
 
-$nombre = 'Oscar';
+$nombre = 'mario alberto flores montellano';
 $email = 'admin@mapeo.test';
 $passwordPlano = '123456';
 

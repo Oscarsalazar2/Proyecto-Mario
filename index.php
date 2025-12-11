@@ -12,14 +12,13 @@ if (!isset($_SESSION['user_id'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mapeo Solar — HTML</title>
 
-  <!-- Hoja de estilos externa -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
   <div class="container">
     <div class="row" style="padding:12px 0">
-      <h1>Mapeo Solar — HTML</h1>
+      <h1>Mapeo Solar</h1>
       <button id="liveBtn" class="btn">En vivo</button>
     </div>
     <div class="tabs">
@@ -118,10 +117,9 @@ if (!isset($_SESSION['user_id'])) {
 </div>
 
 <footer class="container">
-  Demo UI • Mapeo Solar — HTML puro • Simulación local
+  Mapeo Solar
 </footer>
 
-<!-- JS externo -->
 <script src="app.js"></script>
 </body>
 </html>
